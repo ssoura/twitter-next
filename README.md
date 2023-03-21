@@ -1,4 +1,4 @@
-# Build and Deploy: TWITTER clone with React, Tailwind, Next, Prisma, Mongo, NextAuth
+# TWITTER clone with React, Tailwind, Next, Prisma, Mongo, NextAuth
 
 ### Prerequisites
 
@@ -7,7 +7,7 @@
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/ssoura/twitter-clone.git
+git clone https://github.com/ssoura/twitter-next.git
 ```
 
 ### Install packages
