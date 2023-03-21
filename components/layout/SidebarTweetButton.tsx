@@ -44,7 +44,7 @@ const SidebarTweetButton = () => {
         mt-6
         hidden 
         lg:block 
-        px-4
+        px-2
         py-2
         rounded-full
         bg-sky-500
@@ -52,18 +52,30 @@ const SidebarTweetButton = () => {
         cursor-pointer
       "
       >
-        <p
-          className="
-            hidden 
-            lg:block 
-            text-center
-            font-semibold
-            text-white 
-            text-[20px]
-        "
-        >
-          Tweet
-        </p>
+        <div className="flex gap-2 justify-center">
+          <FaFeather
+            className="hidden 
+          lg:block 
+          text-center
+          font-semibold
+          text-white 
+          text-[20px]"
+            size={24}
+            color="white"
+          />
+          <p
+            className="
+          hidden 
+          lg:block 
+          text-center
+          font-semibold
+          text-white 
+          text-[20px]
+          "
+          >
+            Tweet
+          </p>
+        </div>
       </div>
     </div>
   );
